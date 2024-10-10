@@ -117,7 +117,7 @@ Note: You'll need to enter your Facebook User Access Token in the Colab environm
 
 ## Getting Your Facebook User Access Token
 
-1. Go to the Facebook Developers website.
+1. Go to the [Facebook Developers website](https://developers.facebook.com/).
 2. Create an app or use an existing one.
 3. Navigate to your app's dashboard and go to "Tools & Support" -> "Graph API Explorer".
 4. In the "Get Token" dropdown, select "Get User Access Token".
