@@ -64,7 +64,7 @@ This tool allows users to bulk delete Facebook posts from their pages based on v
 
 ### User Access Token
 - Required for authentication
-- Must have `manage_pages` and `publish_pages` permissions
+- Must have `pages_show_list`,`pages_read_user_content`,`pages_manage_posts`,`pages_manage_engagement`  and `pages_read_engagement` permissions
 
 ### Page Selection
 - Choose from a list of pages you manage
