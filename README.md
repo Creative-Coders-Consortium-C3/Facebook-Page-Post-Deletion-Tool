@@ -9,7 +9,9 @@ This tool allows users to bulk delete Facebook posts from their pages based on v
 - [Usage](#usage)
 - [Parameters and Filters](#parameters-and-filters)
 - [Running in Google Colab](#running-in-google-colab)
+- [Getting Your Facebook User Access Token](#Getting-Your-Facebook-User-Access-Token)
 - [Important Notes](#important-notes)
+- [Disclaimer](#Disclaimer)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -112,12 +114,26 @@ Once the notebook is open:
 
 Note: You'll need to enter your Facebook User Access Token in the Colab environment. Ensure you're using a secure, private session and remove the token when you're done.
 
+
+## Getting Your Facebook User Access Token
+
+1. Go to the Facebook Developers website.
+2. Create an app or use an existing one.
+3. Navigate to your app's dashboard and go to "Tools & Support" -> "Graph API Explorer".
+4. In the "Get Token" dropdown, select "Get User Access Token".
+5. Make sure the pages_manage_posts permission is selected.
+6. Click "Get Access Token".
+
+
 ## Important Notes
 
 - This tool permanently deletes posts. Use with caution and consider backing up your data before use.
 - Respect Facebook's API usage limits to avoid being rate-limited or blocked.
 - Keep your access token secure and do not share it with others.
 - This tool does not delete posts marked as "profile picture updates" to prevent unintended profile changes.
+
+## Disclaimer
+- This tool is provided as-is without any warranty. Use it responsibly and at your own risk. Improper use of the Facebook API can lead to account restrictions or other consequences. Always respect Facebook's terms of service.
 
 ## Contributing
 
